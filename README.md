@@ -8,7 +8,7 @@ In this project, I built a two-layer feedforward neural network entirely from sc
 * **Forward Propagation:** Implemented the dot products and activation functions to make predictions.
   * **Hidden Layer:** 10 nodes using a **ReLU** activation function.
   * **Output Layer:** 10 nodes using a **softmax** activation function to output probabilities for digits 0-9.
-* **Backward Propagation:** Hand-coded the calculus and chain-rule derivatives to calculate the error gradients (`dW1, dB1, dW2, dB2`) using categorical cross-entropy and one-hot encoding.
+* **Backward Propagation:** Brute-forced the calculus and derivatives to calculate the error gradients (`dW1, dB1, dW2, dB2`) using categorical cross-entropy and one-hot encoding.
 * **Gradient Descent:** Built the training loop to update the weights and biases over multiple iterations based on a set learning rate.
 * **Visualization & Testing:** 
   * Wrote a function to test the model on validation data, reshape the 784-pixel vectors back into 28x28 images, and plot them using Matplotlib alongside the model's prediction.
